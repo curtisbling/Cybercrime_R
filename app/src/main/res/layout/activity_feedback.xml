@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lavender_border"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPORT FEEDBACK"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/displayDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lavender_border"
+        android:drawablePadding="20dp"
+        android:gravity="start|center_vertical"
+        android:hint=""
+        android:padding="16dp"
+        android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/displaytext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lavender_border"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:hint=""
+            android:padding="16dp"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="250dp"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:text="1.Thank you for reporting,Your report about the cybercrime has been submitted successfully.\n We appreciate your effort in helping to make the digital world safer for everyone"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="350dp"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:text="2.Your Report is being reviewed by our cyber experts and we'll get back to you if we need any further information."
+
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="450dp"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:text="3.Your Identity and privacy will be protected during the investigation and
+you information will not be shared to third party without your consent"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="600dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="confirm"
+
+            />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</ScrollView>
